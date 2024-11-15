@@ -1,10 +1,14 @@
+/* select the nav element to affect all NAV sections in each page */
 nav{
     height: 50px;
     background-color: beige;
     padding: 25px;
     text-align:center;
 }
-a:hover {
+
+/* Pseudo-class style for the <a> tag */
+a:hover 
+{
     color:yellowgreen;
     text: shadow 5px ;
 }
@@ -22,6 +26,7 @@ p{
     margin:auto;
     padding:20px;
 }
+/* class styling */
 .catlist{
     color: orange;
    
